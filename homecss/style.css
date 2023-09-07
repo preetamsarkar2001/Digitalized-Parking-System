@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Josefin Sans',sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.myBtn:hover {
+  background-color: #555;
+}
+
+
+.carousel-inner img {
+      width: 100%;
+     
+
+  }
+
+.carousel-inner2 img {
+      width: 50%;
+     
+
+  }
+
+
+
+  .aboutimg{
+  	width: 100%;
+  	height: 220px;
+  }
+
+ .rightform form label{
+	font-size: 2em;
+	color: #333;
+	display: block;
+	margin-top: 15px;
+}
+
+.rightform form input{
+	width: 100%;
+	border: none;
+	padding: 10px 10px;
+	border-bottom: 2px solid #333;
+}
+
+
+
